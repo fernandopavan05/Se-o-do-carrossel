@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Monstserrat", sans-serif;
+  color: #404040;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3.32rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2.76rem;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 2.3rem;
+  line-height: 1.2;
+}
+
+strong {
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+.secao {
+  padding: 7.63rem 2rem;
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.paragrafos-hero .comoajudar-li,
+.comoajudar-paragrafos,
+.diferenciais-p {
+  font-size: 1.92rem;
+  line-height: 1.3;
+}
+
+.botao {
+  display: inline-block;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 3rem;
+  padding: 0.65rem 2.5rem;
+  color: #fff;
+  box-shadow: 0 0.21rem 0.8rem rgba(0, 0, 0, 0.3);
+}
+
+/* cabecalho */
+
+.cabecalho {
+  padding: 1.28rem 2.5rem;
+  box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.1);
+  background-color: white;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+nav {
+  display: none;
+}
+
+.itens-lista-cabecalho a {
+  color: #112e61;
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.itens-lista-cabecalho a:hover,
+.itens-lista-cabecalho a:active {
+  color: #f60;
+}
+
+/* seção hero */
+
+.secao-hero {
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-01.png);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.botao-hero {
+  border-bottom: 0.4rem solid #993c38;
+  border-right: 0.4rem solid #993c38;
+  background-image: linear-gradient(180deg, #ff645e, #ff9253);
+}
+
+.botao-hero:hover {
+  background-color: #ff9253;
+  background-image: none;
+  border-bottom: 0.4rem solid #ff9253;
+  border-right: 0.4rem solid #ff9253;
+}
+
+.iframe-video {
+  aspect-ratio: 16/9;
+  width: 42rem;
+  border-radius: 2.5rem;
+}
+
+/* seção conteudo gratuito */
+
+.container-conteudo-gratuito {
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-02.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caixa-cursos-hashtag {
+  box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  border-radius: 2.5rem;
+  position: relative;
+}
+
+.caixa-gratuito-h3 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
+  padding: 0.42rem 1.6rem;
+  color: white;
+  border-radius: 1.2rem;
+  display: inline-block;
+  transform: rotate(-3deg) translate(-50%, -50%);
+  box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
+}
+
+.circulo-logo-curso {
+  width: 4.5rem;
+  height: 4.5rem;
+  display: inline-block;
+  background-color: #e7e7e7;
+  border-radius: 50%;
+  padding: 1.02rem;
+  box-shadow: 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.15);
+}
+
+.circulo-logo-curso img {
+  width: 100%;
+}
+
+.img-conteudo-gratuito {
+  width: 35.69rem;
+  height: 21.8rem;
+}
+
+.links-conteudo-gratuito {
+  display: inline-block;
+}
+
+.gratuito-link-lista:link {
+  display: inline-block;
+  padding: 0.42rem 3.12rem;
+  background-color: #eee;
+  border-radius: 4rem;
+  font-size: 1.92rem;
+  line-height: 1.3;
+  text-decoration: none;
+  box-shadow: 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.15);
+  color: #404040;
+  list-style: none;
+}
+
+.gratuito-link-lista:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+.gratuito-link-lista img {
+  width: 1.8rem;
+}
+
+.realce-100 {
+  font-weight: 600;
+  color: #7a40be;
+}
+
+.gratuito-h3 {
+  font-weight: 700;
+}
+
+/* seção Diferenciais */
+
+.secao-diferenciais {
+  background-color: white;
+}
+
+.container-diferenciais {
+  background-color: #f4f5f7;
+  box-shadow: 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+  border-radius: 5rem;
+}
+
+.caixa-azul-diferenciais {
+  background-image: linear-gradient(225deg, #196b9f, #1982a7);
+  color: white;
+  padding: 4.88rem 3.12rem;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+
+.caixa-restante-diferenciais {
+  padding: 4.88rem;
+}
+
+.caixa-itens-diferenciais {
+  border-radius: 2.5rem;
+  background-color: white;
+  box-shadow: 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+  padding: 3.12rem 2.5rem;
+  position: relative;
+}
+
+.caixa-imagens-diferenciais {
+  display: inline-block;
+  background-color: #ffaf00;
+  border-radius: 2rem;
+  width: 10rem;
+  height: 10rem;
+  padding: 1.6rem;
+  box-shadow: inset 0 0 0.8rem 0.2rem rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.caixa-imagens-diferenciais img {
+  width: 100%;
+}
+
+.diferenciais-imagens-empresas img {
+  height: 5rem;
+  filter: grayscale(100%);
+}
+.logo-loreal,
+.logo-disney {
+  opacity: 60%;
+}
+
+ .logo-subsea7,
+ .logo-animale{
+  opacity: 75%;
+}
+
+.caixa-diferenciais-h2 {
+  border-left: 0.5rem solid #ffb20f;
+  padding: 0.6rem 0 0.6rem 2rem;
+  width: 35rem;
+}
+
+.h3-diferenciais {
+  color: #005e88;
+  font-weight: 600;
+}
+
+.paragrafos-secao-diferenciais {
+  font-size: 1.6rem;
+}
+
+.h3-diferenciais-empresa {
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+
+.h3-diferenciais-empresa a {
+  color: #005e88;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Seção o que falam */
+
+.secao-oquefalam{
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-04.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.oquefalam-titulo{
+  color: white;
+}
+
+.realce-oquefalam {
+  font-weight: 600;
+}
+
+/* seção Na Midia */
+
+/* seção blog */
+
+.blog-postadoem {
+  font-size: 1.5rem;
+}
+
+.blog-postadoem a {
+  color: #f7a70c;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blog-titulopost {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blog-descricao {
+  font-size: 1.7rem;
+}
+
+/* seção como ajudar */
+
+.realce-h2-comoaajudar {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.comoajudar-li a,
+.comoajudar-paragrafos a {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.comoajudar-paragrafos b {
+  font-weight: 600;
+}
+
+/* Seção Minicurso  */
+
+.minicurso-realce {
+  font-weight: 600;
+}
+
+.minicurso-paragrafo {
+  font-size: 1.92rem;
+}
+
+/* seção rodape */
+
+.rodape-titulos {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.rodape-subtitulo {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.rodape-subtitulo-2 {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.rodape-link {
+  color: #1a77a4;
+}
